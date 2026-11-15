@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Morning Dashboard</title>
+<meta name="description" content="A private personal dashboard that reads one person's own mail, calendar and tasks and renders them to a single local page.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body><div class="wrap">
+<header>
+  <h1>Morning Dashboard</h1>
+  <p class="sub">A private tool that gathers one person&rsquo;s own schedule, mail and tasks into a single page.</p>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+</header>
+
+<h2>What it is</h2>
+<p>Morning Dashboard is a personal productivity tool built and run by one individual for his own use. It runs on his own Windows computer. Once an hour during the working day it collects his schedule, the mail waiting on him, and his open tasks, scores them for priority, and writes the result to a single HTML page he opens in a browser.</p>
+<p>It is not a product, not a service, and not offered to anyone else. There is no sign-up, no hosted component and no other user. It is published here only because Google requires an application using its APIs to have a home page, a privacy policy and terms of service at public addresses.</p>
+
+<h2>What it connects to</h2>
+<table>
+  <tr><th>Source</th><th>What it reads</th><th>Access</th></tr>
+  <tr><td>Google Gmail</td><td>Recent messages, to rank what needs a reply</td><td>Read-only</td></tr>
+  <tr><td>Google Calendar</td><td>Today&rsquo;s and tomorrow&rsquo;s events</td><td>Read-only</td></tr>
+  <tr><td>Microsoft 365</td><td>Work mail and calendar</td><td>Read-only</td></tr>
+  <tr><td>Asana</td><td>Open tasks</td><td>Read-only</td></tr>
+  <tr><td>Open-Meteo, weather.gov</td><td>Forecast and alerts</td><td>Public, no account</td></tr>
+</table>
+
+<div class="box">
+  <p style="margin:0"><strong>Read-only, by design.</strong> The Google access this application requests cannot send, delete, modify or label mail, and cannot create or change calendar events. It can only read. That limit is enforced by Google, not by a promise made here.</p>
+</div>
+
+<h2>Where the data goes</h2>
+<p>Nowhere. Everything collected is written to files on the one computer that collects it. There is no server, no database, no cloud component, no analytics and no third party. Nothing is transmitted anywhere except back to the Google, Microsoft and Asana APIs the data came from.</p>
+
+<h2>Contact</h2>
+<p>Questions about this application: <a href="mailto:74pantera@gmail.com">74pantera@gmail.com</a></p>
+
+<footer>
+  <p>Morning Dashboard &middot; a personal project &middot; last updated 15 November 2026</p>
+</footer>
+</div></body>
+</html>
